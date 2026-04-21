@@ -3,7 +3,7 @@
 A sophisticated, autonomous research assistant built with LangChain and Claude Sonnet. This agent is designed to perform deep dives into complex topics by delegating specific research tasks to specialized sub-agents and synthesizing the findings.
 
 > [!NOTE]
-> **Operational Cost:** Running a comprehensive research task with this agent typically costs around **$1.48** in API usage (using Claude 3.5 Sonnet).
+> **Operational Cost:** Running a comprehensive research task with this agent typically costs around **$1.48** in API usage (using `claude-sonnet-4-5-20250929`).
 
 ## ✨ Features
 
@@ -19,7 +19,7 @@ A sophisticated, autonomous research assistant built with LangChain and Claude S
 
 - **Language:** Python
 - **Framework:** [LangChain](https://www.langchain.com/) / LangGraph
-- **LLM:** Anthropic Claude 3.5 Sonnet
+- **LLM:** Anthropic Claude (specifically `claude-sonnet-4-5-20250929`)
 - **Search API:** Tavily
 - **Core Library:** `deepagents`
 
@@ -27,7 +27,7 @@ A sophisticated, autonomous research assistant built with LangChain and Claude S
 
 ### Prerequisites
 
-- Python 3.9+
+- Python 3.11+
 - [Anthropic API Key](https://console.anthropic.com/)
 - [Tavily API Key](https://tavily.com/)
 
@@ -86,4 +86,4 @@ The project is structured as a clean Python package for maintainability:
 
 ## 📄 License
 
-[MIT License](LICENSE) (or your preferred license)
+[MIT License](LICENSE)
