@@ -2,8 +2,8 @@
 
 A sophisticated, autonomous research assistant built with LangChain and Claude Sonnet. This agent is designed to perform deep dives into complex topics by delegating specific research tasks to specialized sub-agents and synthesizing the findings.
 
-> [!IMPORTANT]
-> **Total Development Cost:** This project was built using Claude Code and cost exactly **$1.48** to develop.
+> [!NOTE]
+> **Operational Cost:** Running a comprehensive research task with this agent typically costs around **$1.48** in API usage (using Claude 3.5 Sonnet).
 
 ## ✨ Features
 
